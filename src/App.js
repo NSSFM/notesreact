@@ -6,26 +6,7 @@ import Header from './components/Header';
 
 const App = () => {
 	const [notes, setNotes] = useState([
-		{
-			id: nanoid(),
-			text: 'moj batya',
-			date: '',
-		},
-		{
-			id: nanoid(),
-			text: 'ebashit adovie bluda',
-			date: '',
-		},
-		{
-			id: nanoid(),
-			text: 'recepta net, pojetomu wot wam usrednennyj wariant',
-			date: '',
-		},
-		{
-			id: nanoid(),
-			text: 'beretsya sup, on ne greetsia, gret eto ne pro mojego batju',
-			date: '',
-		},
+
 	]);
 
 	const [searchText, setSearchText] = useState('');
